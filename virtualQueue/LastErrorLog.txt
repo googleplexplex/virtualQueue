@@ -1,0 +1,6 @@
+<<class 'vk_api.bot_longpoll.VkBotMessageEvent'>({'group_id': 222751278, 'type': 'message_new', 'event_id': 'be7b191f02c0a85d4824ce712e78a7b83ab53904', 'v': '5.150', 'object': {'message': {'date': 1696088171, 'from_id': 821666600, 'id': 187, 'out': 0, 'attachments': [], 'conversation_message_id': 39, 'fwd_messages': [], 'important': False, 'is_hidden': False, 'peer_id': 821666600, 'random_id': 0, 'text': 'Не пришёл'}, 'client_info': {'button_actions': ['text', 'vkpay', 'open_app', 'location', 'open_link', 'callback', 'intent_subscribe', 'intent_unsubscribe'], 'keyboard': True, 'inline_keyboard': True, 'carousel': True, 'lang_id': 0}}})>
+
+Traceback (most recent call last):
+  File "C:\Users\Andrew\Downloads\virtualQueue\virtualQueue\virtualQueue.py", line 158, in <module>
+    presentTask = Task(sqlPresentTask[0][0], sqlPresentTask[0][1])
+IndexError: tuple index out of range
